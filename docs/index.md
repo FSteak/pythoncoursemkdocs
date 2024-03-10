@@ -1,17 +1,20 @@
-# Welcome to MkDocs
+# Welcome to Pyth0n C0URSE!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+> It's time to code! Isn't it?
 
-## Commands
+> NOTE:
+> This course is made for 3.x version of python
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+# Frequently Asked Quest10ns
+## ETA when?
+Just wait please
+## So why there is everywhere c0urse?
+Because it's an Open Source course with **0 money** on charge
+# Credits
+### Anyways this project (or course) used to learn is shown in this table
+| Name 	| Creator 	| Creators site 	| Site 	|
+|---	|---	|---	|---	|
+| Python for Everybody 	| Dr-Chuck, Catedu 	| https://www.dr-chuck.com/ 	| https://catedu.github.io/python-for-person-in-everybody/ 	|
+| Python Documentation 	| Guido van Rossum 	| https://gvanrossum.github.io/ 	| https://docs.python.org/ 	|
