@@ -1,7 +1,59 @@
 site_name: Pyth0n C0URSE
+edit_uri: edit/master/docs/
+repo_url: https://github.com/FSteak/pythoncoursemkdocs/
+repo_name: FSteak/pythoncoursemkdocs
 site_url: https://fsteak.github.io/pythoncoursemkdocs/
 theme:
+
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
   name: material
+  custom_dir: overrides
+  language: en
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.prune
+    - toc.follow
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - navigation.footer
+    - content.action.edit
+    - content.action.view
+plugins:
+  - search:
+      enabled: true
+      lang: en
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      enabled: true
+      repository: FSteak/pythoncoursemkdocs
+      branch: master
+  - git-authors:
+      enabled: true
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ITProggerUZ
+      name: My Github Profile
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
 markdown_extensions:
   - attr_list
   - md_in_html
+copyright: Copyright &copy; 2024 FSteak
