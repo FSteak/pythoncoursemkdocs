@@ -9,6 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - run: mkdir .cache
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
         run: |
@@ -21,7 +22,7 @@ jobs:
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
-          path: ./.cache
+          path: .cache
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
