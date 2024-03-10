@@ -10,7 +10,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - run: mkdir .cache
+      - run: pip install mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-git-committers-plugin-2
+      - run: mkdir overrides
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
         run: |
