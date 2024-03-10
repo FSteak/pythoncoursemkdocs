@@ -5,6 +5,11 @@
 > NOTE:
 > This course is made for 3.x version of python
 
+For codes, and resources you can get a clone of GitHub repo of this project and stuff are in (root of the project)/docs/assets/
+
+[Getting Started](Setup/Getting%20Started.md)
+[Setting up IDE](Setup/Setting%20up%20IDE.md)
+
 ---
 
 # Frequently Asked Quest10ns
