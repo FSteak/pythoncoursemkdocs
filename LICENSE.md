@@ -1,4 +1,4 @@
-# SimpliX License
+# SimpliX Pub**LIC**ense
 
 
 ```
