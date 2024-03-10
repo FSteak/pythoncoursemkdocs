@@ -22,3 +22,6 @@
 3. EXCEPT you can NOT sell it! (You can sell it but not just take a fork and selling)
 4. NO BREAKING THE CODE OR DOING MISLEADING INFO AFTER FORKING!
 ```
+
+| :warning: **INFO:** Please Don't blame me for the uppercased typing or like something that |
+| --- |

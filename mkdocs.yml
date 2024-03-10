@@ -1,3 +1,4 @@
 site_name: Pyth0n C0URSE
+site_url: https://fsteak.github.io/pythoncoursemkdocs/
 theme:
   name: material
