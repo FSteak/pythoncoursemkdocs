@@ -1,3 +1,9 @@
+---
+comments: true
+---
+
+
+
 # Getting started
 
 ---
@@ -25,7 +31,7 @@ the latest version for windows 10/11 is 3.12.2 as of development of this C0URSE
 1. For windows 8/8.1/10/11 users: [Python Downloads](https://www.python.org/downloads)<br>
 2. For windows XP/Vista/7 users: I reccommend upgrading to atleast Windows 10 because it might be hard, [Python 3.9.13 Downloads](https://www.python.org/downloads/release/python-3913/)
 ### For Linux Users
-Linux is really easy there is guide by what distro you have<br>
+Linux is really easy there is commands by what distro you have<br>
 1. Arch Linux based: ```sudo pacman -S python3```<br>
 2. Debian based (Ubuntu applies too): ```sudo apt install python3```<br>
 3. RHEL based: ```sudo yum install python3``` or ```sudo dnf install python3```<br>
@@ -57,5 +63,11 @@ If installation is done then click Close
 ![Click close](../assets/images/installation-done-windows.png)
 
 # Now you finally installed PYTH0N!!
+To check if you installed python<br>
+Type ```python -V``` in terminal<br>
+and it should output like this<br>
+```python
+Python 3.x
+```
 Now go to next page to setup an IDE
 [Setting up IDE](Setting%20up%20IDE.md)

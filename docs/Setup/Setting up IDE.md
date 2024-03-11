@@ -66,8 +66,6 @@ For Fedora-based distros:
 ```bash
 sudo dnf install <file.rpm>
 ```
-For Gentoo-based distros:
-Sorry, dig it out for yourself as you are pro
 
 ### VSCode
 For Arch-based distros:
@@ -88,8 +86,6 @@ For Fedora-based distros:
 ```bash
 sudo dnf install code
 ```
-For Gentoo-based distros:
-Sorry, dig it out for yourself as you are pro
 
 ### Pycharm CE
 For Arch-based distro
@@ -97,8 +93,6 @@ For Arch-based distro
 sudo pacman -S pycharm-community-edition
 ```
 For Other distros please download it from [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/?section=linux), or please read the manual to add the repo and install it<br>
-Gentoo users:
-If your machine can handle it then c'mon
 
 # For VSCod(e/ium) users
 Please install Python extension as it helps a lot
