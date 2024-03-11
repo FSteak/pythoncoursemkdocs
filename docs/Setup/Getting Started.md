@@ -49,17 +49,17 @@ So it's Do It Yourself
 #### For Windows: Be prepared it's maybe a long one (I'm not responsible for Windows 7 users)
 So the installer should look like this:<br>
 ![Installation look on Windows 10](../assets/images/installer-look-windows.png)
-> NOTE: That black painted ones are to select or click (y'know english but just for noobs or skim-readers)
-Please tick/check this checkbox or else it will cause problems to get Pyth0n working
+> NOTE: That black painted ones are to select or click (y'know english but just for noobs or skim-readers)<br>
+Please tick/check this checkbox or else it will cause<br> problems to get Pyth0n working<br>
 ![Check these](../assets/images/installer-checks-windows.png)
 
-Then go to install now
+Then go to install now<br>
 ![Install now](../assets/images/installer-install-now-windows.png)
 
-The installation should look like this (don't care about text after installing)
+The installation should look like this (don't care about text after installing)<br>
 ![Install progress](../assets/images/installation-install-progress-windows.png)
 
-If installation is done then click Close
+If installation is done then click Close<br>
 ![Click close](../assets/images/installation-done-windows.png)
 
 # Now you finally installed PYTH0N!!

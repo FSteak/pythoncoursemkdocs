@@ -1,9 +1,11 @@
 site_name: Pyth0n C0URSE
+
 edit_uri: edit/master/docs/
 repo_url: https://github.com/FSteak/pythoncoursemkdocs/
 repo_name: FSteak/pythoncoursemkdocs
 site_url: https://fsteak.github.io/pythoncoursemkdocs/
 theme:
+  custom_dir: overrides
   palette: 
 
     # Palette toggle for light mode
