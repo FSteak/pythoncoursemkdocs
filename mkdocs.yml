@@ -4,7 +4,19 @@ repo_url: https://github.com/FSteak/pythoncoursemkdocs/
 repo_name: FSteak/pythoncoursemkdocs
 site_url: https://fsteak.github.io/pythoncoursemkdocs/
 theme:
+  palette: 
 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
@@ -31,6 +43,8 @@ theme:
     - content.action.edit
     - content.action.view
 plugins:
+  - glightbox:
+      enabled: true
   - search:
       enabled: true
       lang: en
