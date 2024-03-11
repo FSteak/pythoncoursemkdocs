@@ -77,4 +77,5 @@ markdown_extensions:
       permalink: true
   - attr_list
   - md_in_html
+  - tables
 copyright: Copyright &copy; 2024 FSteak

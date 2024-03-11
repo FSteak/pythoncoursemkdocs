@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Setting up IDE (Integrated Development Environment)
 You can use any IDE or code editor<br>
 For choosing there it is

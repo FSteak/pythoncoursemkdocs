@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Welcome to Pyth0n C0URSE!
 
 > It's time to code! Isn't it?
