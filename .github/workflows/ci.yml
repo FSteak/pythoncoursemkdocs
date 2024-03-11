@@ -7,11 +7,9 @@ on:
 permissions:
   contents: write
 jobs:
-  deploy:
+  bomb:
     runs-on: ubuntu-latest
     steps:
-      
-      - run: mkdir overrides
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -32,6 +30,7 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
+      - run: mkdir overrides
       - run: pip install mkdocs-material
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-git-committers-plugin-2
