@@ -1,4 +1,5 @@
 site_name: Pyth0n C0URSE
+site_description: The free and open-source python course.
 
 edit_uri: edit/master/docs/
 repo_url: https://github.com/FSteak/pythoncoursemkdocs/
@@ -46,6 +47,8 @@ plugins:
   - social:
       enabled: true
       cards: true
+      cards_layout_options:
+
   - glightbox
   - search:
       enabled: true
