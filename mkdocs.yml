@@ -44,8 +44,7 @@ theme:
     - content.action.edit
     - content.action.view
 plugins:
-  - glightbox:
-      enabled: true
+  - glightbox
   - search:
       enabled: true
       lang: en
@@ -69,6 +68,10 @@ extra_css:
 extra_javascript:
   - javascripts/extra.js
 markdown_extensions:
+  - admonition
+  - pymdownx.emoji
+  - pymdownx.superfences
+  - pymdownx.details
   - toc:
       anchorlink: true
       permalink: true

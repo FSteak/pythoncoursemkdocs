@@ -12,7 +12,8 @@ comments: true
 Well, Python is a programming language.<br>
 IF you want to skip this then go to next page
 
-> <p style="color:orange">⚠ WARNING:</p> You should note that even if you know what is programming language and python installed your python version should be 3.x or latest is better.
+!!! warning
+    You should note that even if you know what is programming language and python installed your python version should be 3.x or latest is better.
 
 ---
 
@@ -24,8 +25,10 @@ The installation is easy but don't always click next next and install there is n
 
 the latest version for windows 10/11 is 3.12.2 as of development of this C0URSE
 
-> Downloading on windows 10 or later is easy as of auto detecting from your browser
-> Same applies to MacOS but no need to look at your MacOS versions to pick
+!!! info
+    Downloading on windows 10 or later is easy as of auto detecting from your browser
+!!! warning
+    Same applies to MacOS but no need to look at your MacOS versions to pick but i reccoment MacOS Catalina and later
 
 ### For windows users
 1. For windows 8/8.1/10/11 users: [Python Downloads](https://www.python.org/downloads)<br>
@@ -49,9 +52,10 @@ So it's Do It Yourself
 #### For Windows: Be prepared it's maybe a long one (I'm not responsible for Windows 7 users)
 So the installer should look like this:<br>
 ![Installation look on Windows 10](../assets/images/installer-look-windows.png)
-> NOTE: That black painted ones are to select or click (y'know english but just for noobs or skim-readers)<br>
-Please tick/check this checkbox or else it will cause<br> problems to get Pyth0n working<br>
-![Check these](../assets/images/installer-checks-windows.png)
+!!! note
+    That black painted ones are to select or click (y'know english but just for noobs or skim-readers)<br>
+    Please tick/check this checkbox or else it will cause<br> problems to get Pyth0n working<br>
+    ![Check these](../assets/images/installer-checks-windows.png)
 
 Then go to install now<br>
 ![Install now](../assets/images/installer-install-now-windows.png)
