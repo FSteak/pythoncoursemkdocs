@@ -22,7 +22,6 @@ theme:
     edit: material/pencil
     view: material/eye
   name: material
-  custom_dir: overrides
   language: en
   features:
     - navigation.instant
