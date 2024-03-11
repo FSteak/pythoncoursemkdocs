@@ -7,7 +7,6 @@ site_url: https://fsteak.github.io/pythoncoursemkdocs/
 theme:
   custom_dir: overrides
   palette: 
-
     # Palette toggle for light mode
     - scheme: default
       toggle:
@@ -44,10 +43,12 @@ theme:
     - content.action.edit
     - content.action.view
 plugins:
+  - social:
+      enabled: true
+      cards: true
   - glightbox
   - search:
       enabled: true
-      lang: en
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - git-revision-date-localized:
       enable_creation_date: true
@@ -58,7 +59,14 @@ plugins:
   - git-authors:
       enabled: true
 extra:
-  generator: false
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Uzbek
+      link: https://fsteak.github.io/pythoncoursemkdocsuz
+      lang: uz
+  generator: true
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ITProggerUZ
